@@ -1,5 +1,6 @@
-import {StyleSheet} from 'react-native';
+import {StyleSheet, TouchableWithoutFeedback, View} from 'react-native';
 import {BACKGROUND_COLOR, OPACITY_BACKGROUND} from '../constants';
+import ThemeText from '../themeElements/themeText';
 
 export default function ViewMnemonic() {
   return (
